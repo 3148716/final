@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono:400,500');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 34000px;
+	background-color: #030303;
+}
+
+
+
+
+
+#space {
+	position: fixed;
+	z-index: 0;
+	width:100vw;
+	height:56.26vw;
+    top:0;
+}
+
+#cockpit {
+	position: fixed;
+	z-index: 36;
+	width:100vw;
+	bottom:0;
+}
+
+
+
+
+
+
+
+.objects {
+		-webkit-animation: rotation 300s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+
+
+
+
+
+#earth {
+	position:fixed;
+    z-index:21;
+    width:100vw;
+    height:56.26vw;
+}
+
+#station {
+	position:fixed;
+	top:21%;
+	left:21%;
+    z-index:21;
+    display:none;
+}
+
+#moon {
+	position:fixed;
+	top:21%;
+	left:21%;
+    z-index:21;
+    display:none;
+}
+
+#mars {
+	position:fixed;
+	top:21%;
+	left:21%;
+    z-index:21;
+    display:none;
+}
+
+#jupiter {
+	position:fixed;
+	top:-326px;
+	left:36%;
+    z-index:21;
+    display:none;
+}
+
+#saturn {
+	position:fixed;
+	top:-100px;
+	left:15%;
+    z-index:21;
+    display:none;
+}
+
+#uranus {
+	position:fixed;
+	left:21%;
+	top:9%;
+    z-index:21;
+    display:none;
+}
+
+#neptune {
+	position:fixed;
+	top:18%;
+	left:18%;
+    z-index:21;
+    display:none;
+}
+
+#andromeda {
+	position:fixed;
+    z-index:21;
+    top:-400px;
+    left:9%;
+    display:none;
+}
+
+
+
+
+
+
+
+.start {
+	position:fixed;
+	min-width:550px;
+	top: 45%;
+	left: 50%;
+	background-color: rgba(0,0,0,0.5);
+	padding:100px 150px;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	color: rgba(99,255,255);
+	text-align: center;
+	font-size:21px;
+	font-family: 'Roboto Mono', sans-serif;
+	z-index:48;
+	line-height: 1;
+}
+
+
+
+
+
+#manual {
+	width:250px;
+	height:50px;
+	line-height: 0;
+}
+
+#nav {
+	position:fixed;
+	min-width:250px;
+	top: 45%;
+	left: 50%;
+	background-color: rgba(0,0,0,0.5);
+	padding:100px 150px;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	color: rgba(99,255,255);
+	text-align: center;
+	font-size:21px;
+	font-family: 'Roboto Mono', sans-serif;
+	z-index:48;
+	line-height: 1;
+	display:none;
+}
+
+
+
+
+
+#auto {
+	width:250px;
+	height:50px;
+	display: table-cell;
+    line-height: 0;
+}
+
+#activate {
+	position:fixed;
+	min-width:400px;
+	top: 45%;
+	left: 50%;
+	background-color: rgba(0,0,0,0.5);
+	padding:100px 150px;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	color: rgba(99,255,255);
+	text-align: center;
+	font-size:21px;
+	font-family: 'Roboto Mono', sans-serif;
+	z-index:48;
+	line-height: 1;
+	display:none;
+}
+
+
+
+
+
+
+.home {
+	position:fixed;
+	width:700px;
+	max-height:100px;
+	display:none;
+
+	line-height: 1.5;
+
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+button {
+	border-radius:21px;
+	background-color: rgba(99,255,255,.3);
+	border: solid rgba(99,255,255,.5);
+	padding:15px 32px;
+
+	color:rgba(99,255,255);
+	font-size:21px;
+	font-family: 'Roboto Mono', sans-serif;
+
+	z-index:48;
+	box-shadow: 0px 0px 48px rgba(99,255,255,.3);
+	cursor:pointer;
+}
+
+button:hover {
+	background-color: rgba(99,255,255,.7);
+	border: transparent;
+	color: rgba(0,0,0,.9);
+	font-weight: 500;
+}
+
+button:focus {
+	outline:0;
+}
+
+button:active {
+	background-color: rgba(99,255,255,.3);
+	border: solid rgba(99,255,255,.5);
+}
+
+
